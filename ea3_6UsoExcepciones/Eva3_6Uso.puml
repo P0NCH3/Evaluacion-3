@@ -1,0 +1,8 @@
+@startuml
+class ea3_6usoexcepciones.Ea3_6UsoExcepciones
+class ea3_6usoexcepciones.InpuMismachExcepion
+class java.util.InputMismatchException
+class java.util.Scanner
+ea3_6usoexcepciones.Ea3_6UsoExcepciones ..> java.util.InputMismatchException
+ea3_6usoexcepciones.Ea3_6UsoExcepciones ..> java.util.Scanner
+@enduml

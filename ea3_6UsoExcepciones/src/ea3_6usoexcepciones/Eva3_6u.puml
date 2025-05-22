@@ -1,0 +1,15 @@
+@startuml
+
+           try{
+         Scanner captu = new Scanner(System.in);
+         
+            System.out.println("Introduce un número");
+            numeoi= captu.nextInt();
+            break;
+           }catch(InputMismatchException e){
+               System.out.println("El valor no es valido, vuelve a intentarlo");
+           }
+           }
+        System.out.println("El valor capturado es = " + numeoi);
+        }
+@enduml
