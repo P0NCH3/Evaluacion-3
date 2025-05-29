@@ -1,0 +1,5 @@
+@startuml
+annotation java.lang.Override
+class eva3_9throw.Eva3_9THROW
+eva3_9throw.Eva3_9THROW ..> java.lang.Override
+@enduml
