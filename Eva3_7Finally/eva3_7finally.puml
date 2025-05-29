@@ -1,0 +1,8 @@
+@startuml
+class eva3_7finally.eva3_7finally
+class java.util.InputMismatchException
+class java.util.Scanner
+eva3_7finally.eva3_7finally ..> java.util.InputMismatchException
+eva3_7finally.eva3_7finally ..> java.util.Scanner
+
+@enduml
